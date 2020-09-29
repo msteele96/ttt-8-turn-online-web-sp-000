@@ -1,9 +1,5 @@
 def valid_move?(board, index)
-<<<<<<< HEAD
   if index < 0 || index > 8
-=======
-  if index <= 0 || index >= 8
->>>>>>> 832a22197014cc7629b546a32d522247bd244a5e
     return false
   elsif position_taken?(board, index) == true
     "That space is already taken."
