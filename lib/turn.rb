@@ -1,5 +1,5 @@
 def valid_move?(board, index)
-  
+
 end
 
 def display_board(board)
@@ -45,5 +45,5 @@ def turn(board)
     end
     move(board, index)
   end
-  
+
 end
